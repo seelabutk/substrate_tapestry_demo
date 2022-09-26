@@ -1,0 +1,22 @@
+data:
+  source:
+    - data/turbine.raw
+
+
+#docker:
+#  port: 6688
+#  replicas: 1
+
+
+aws:
+  bucket: {{YOUR-S3-BUCKET-NAME}}
+  region: us-east-1
+  managers:
+    't3.medium': 1
+#  #workers:
+#    #'t3.micro': 3
+
+
+tapestry:
+  directory:
+    - {{PATH/TO/THIS/DIRECTORY}}/tapestry
