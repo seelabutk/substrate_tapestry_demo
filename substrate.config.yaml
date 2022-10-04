@@ -8,13 +8,11 @@ data:
 #  replicas: 1
 
 
-aws:
-  bucket: {{YOUR-S3-BUCKET-NAME}}
-  region: us-east-1
-  managers:
-    't3.medium': 1
-#  #workers:
-#    #'t3.micro': 3
+#aws:
+#  bucket: {{YOUR-S3-BUCKET-NAME}}
+#  region: us-east-2
+#  managers:
+#    'm5.8xlarge': 1
 
 
 tapestry:
