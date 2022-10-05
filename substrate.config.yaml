@@ -1,6 +1,6 @@
 data:
   source:
-    - data/turbine.raw
+    - {/ABSOLUTE/PATH/TO/DIRECTORY/WITH/DATASET}
 
 
 #docker:
@@ -17,4 +17,4 @@ data:
 
 tapestry:
   directory:
-    - {{PATH/TO/THIS/DIRECTORY}}/tapestry
+    - {/ABSOLUTE/PATH/TO/THIS/DIRECTORY}/tapestry
