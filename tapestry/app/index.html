@@ -2,18 +2,14 @@
     <head>
         <title>Tapestry</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/modal-video.min.css">
 
         <!-- jQuery dependency -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="js/jquery-modal-video.min.js"></script>
 
         <!-- For testing -->
         <script src="js/smooth.js"></script>
         <script src="js/gremlins.min.js"></script>
         <script src="js/testing.js"></script>
-
-        <script src="js/gif.js"></script>
 
         <!-- Core Tapestry JS -->
         <script src="js/tools.js"></script>
@@ -114,7 +110,6 @@
                         .settings.isovalues=[parseInt($(this).val())];
                     $(".hyperimage").eq(1).data("tapestry").render(0);
                 });
-                $(".js-modal-btn").modalVideo();
             });
         </script>
     </head>
@@ -124,6 +119,9 @@
         </div>
         <div class="wrapper">
             <div class="footer">Powered by <a>Intel&reg; Rendering Framework</a></div>
+        </div>
+        <div class="share">
+            <img src="qr.png">
         </div>
     </body>
 </html>
