@@ -1,6 +1,6 @@
 # Steps to deploy the demo locally.
 
-1. [Download the dataset.](https://seelabutk-data.s3.amazonaws.com/turbine.raw)  TODO: Remove this requirement by fixing bug in substrate.
+1. [Download the dataset.](https://seelabutk-data.s3.amazonaws.com/turbine_VMIN_EPS1.7_minPts40_X1589_Y698_Z1799_Full.raw)  TODO: Remove this requirement by fixing bug in substrate.
 2. Install [Docker](https://www.docker.com/). Make sure you install the CLI as a part of this.
 3. Open substrate.config.yaml and set the `data.source` and `tapestry.directory` variables.
 4. Uncomment the `docker` options and modify them if desired.

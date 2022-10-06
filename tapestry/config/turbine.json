@@ -1,5 +1,5 @@
 {
-    "filename" : "/data/turbine.raw",
+    "filename" : "/data/turbine_VMIN_EPS1.7_minPts40_X1589_Y698_Z1799_Full.raw",
     "dimensions" : [1589, 698, 1799],
     "imageSize" : [512, 512],
     "outputImageFilename" : "/mnt/data/turbine/turbine_threshold.png",
