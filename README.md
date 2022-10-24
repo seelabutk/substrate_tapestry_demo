@@ -12,7 +12,7 @@
 1. Install [Docker](https://www.docker.com/). Make sure you install the CLI as a part of this.
 2. Open substrate.config.yaml and set `tapestry.directory`.
 3. Uncomment the `aws` options and set `aws.bucket`. Note that `aws.bucket` must correspond to a unique bucket name across all S3 buckets (including other peoples' buckets).
-4. Run `./run.sh --env AWS_ACCESS_KEY_ID={{YOUR_ACCESS_KEY_ID}} --env AWS_SECRET_ACCESS_KEY={{YOUR_ACCESS_KEY}} start` to deploy the demo and `./run.sh --env … stop` to destroy it.
+4. Run `./run.sh --env AWS_ACCESS_KEY_ID={{YOUR_ACCESS_KEY_ID}} --env AWS_SECRET_ACCESS_KEY={{YOUR_ACCESS_KEY}} start` to deploy the demo and `./run.sh --env --env AWS_ACCESS_KEY_ID={{YOUR_ACCESS_KEY_ID}} --env AWS_SECRET_ACCESS_KEY={{YOUR_ACCESS_KEY}} stop` to destroy it.
 5. If your AWS credentials include a session token, make sure to include it in the above command as `--env AWS_SESSION_TOKEN={{YOUR_SESSION_TOKEN}}`.
 6. If you are running an older version of Docker, it may be necessary to run in privileged mode with `./run.sh --privileged start/stop`.
 
