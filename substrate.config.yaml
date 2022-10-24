@@ -1,6 +1,6 @@
 data:
   source:
-    - {/ABSOLUTE/PATH/TO/DIRECTORY/WITH/DATASET}
+    - https://seelabutk-data.s3.amazonaws.com/turbine_VMIN_EPS1.7_minPts40_X1589_Y698_Z1799_Full.raw
 
 
 #docker:
@@ -10,6 +10,7 @@ data:
 
 #aws:
 #  bucket: {{YOUR-S3-BUCKET-NAME}}
+#  # https: true
 #  region: us-east-2
 #  managers:
 #    'm5.8xlarge': 1
@@ -17,4 +18,4 @@ data:
 
 tapestry:
   directory:
-    - {/ABSOLUTE/PATH/TO/THIS/DIRECTORY}/tapestry
+    - {{/ABSOLUTE/PATH/TO/THIS/DIRECTORY}}/tapestry
